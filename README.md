@@ -12,7 +12,7 @@
 focus:       Digital Identity & Trust Services
 off_hours:   reverse-engineering BLE & CAN-bus
 currently:   bringing older Teslas up to modern spec — TMM-App
-believes:    the right software outlives the hardware it was built for
+believes:    "impossible" just means nobody tried hard enough — ask my Tesla's infotainment, now running Grok
 ```
 
 ## Currently exploring
@@ -33,18 +33,6 @@ Independent, unofficial Android app that brings older Teslas up to modern spec �
 ![Language](https://img.shields.io/github/languages/top/LycheeAPPF/TMM-App?style=flat-square&color=2563eb&label=language)
 ![Stars](https://img.shields.io/github/stars/LycheeAPPF/TMM-App?style=flat-square&color=2563eb&label=stars)
 ![License](https://img.shields.io/github/license/LycheeAPPF/TMM-App?style=flat-square&color=2563eb)
-
-### [ppml-overhead-benchmark](https://github.com/LycheeAPPF/ppml-overhead-benchmark)
-Reproducible benchmarks of the overhead of privacy-preserving ML (SMPC/CrypTen) and inference (FHE/TenSEAL) on MNIST.
-
-![Language](https://img.shields.io/github/languages/top/LycheeAPPF/ppml-overhead-benchmark?style=flat-square&color=2563eb&label=language)
-![License](https://img.shields.io/github/license/LycheeAPPF/ppml-overhead-benchmark?style=flat-square&color=2563eb)
-
-### [led-ble-car](https://github.com/LycheeAPPF/led-ble-car)
-Reverse-engineered BLE protocol for LED CAR / LEDBLE / LEDDMX RGBIC car-strip controllers, with a Python verification tool. Live-tested on real hardware.
-
-![Language](https://img.shields.io/github/languages/top/LycheeAPPF/led-ble-car?style=flat-square&color=2563eb&label=language)
-![License](https://img.shields.io/github/license/LycheeAPPF/led-ble-car?style=flat-square&color=2563eb)
 
 ### [kennzeichen-bot](https://github.com/LycheeAPPF/kennzeichen-bot)
 Automatically checks the availability of selected German license plates via the "ekom21" portal.
