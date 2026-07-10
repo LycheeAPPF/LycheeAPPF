@@ -1,0 +1,56 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=LycheeAPPF&show_icons=true&hide_border=true&theme=dark&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9&bg_color=00000000
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=LycheeAPPF&show_icons=true&hide_border=true&theme=default&title_color=2563eb&icon_color=2563eb&text_color=1f2328&bg_color=00000000
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=LycheeAPPF&layout=compact&hide_border=true&theme=dark&title_color=3b82f6&text_color=c9d1d9&bg_color=00000000
+          path: profile/langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=LycheeAPPF&layout=compact&hide_border=true&theme=default&title_color=2563eb&text_color=1f2328&bg_color=00000000
+          path: profile/langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push

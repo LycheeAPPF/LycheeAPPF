@@ -56,9 +56,9 @@ Automatically checks the availability of selected German license plates via the 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=LycheeAPPF&theme=dark&hide_border=true&title_color=3b82f6&icon_color=3b82f6&text_color=c9d1d9&bg_color=00000000#gh-dark-mode-only" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api?username=LycheeAPPF&theme=default&hide_border=true&title_color=2563eb&icon_color=2563eb&text_color=1f2328&bg_color=00000000#gh-light-mode-only" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LycheeAPPF&layout=compact&theme=dark&hide_border=true&title_color=3b82f6&text_color=c9d1d9&bg_color=00000000#gh-dark-mode-only" alt="Top Languages" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LycheeAPPF&layout=compact&theme=default&hide_border=true&title_color=2563eb&text_color=1f2328&bg_color=00000000#gh-light-mode-only" alt="Top Languages" height="165" />
+<img src="./profile/stats-dark.svg#gh-dark-mode-only" alt="GitHub Stats" height="165" />
+<img src="./profile/stats-light.svg#gh-light-mode-only" alt="GitHub Stats" height="165" />
+<img src="./profile/langs-dark.svg#gh-dark-mode-only" alt="Top Languages" height="165" />
+<img src="./profile/langs-light.svg#gh-light-mode-only" alt="Top Languages" height="165" />
 
 </div>
