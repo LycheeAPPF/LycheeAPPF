@@ -30,14 +30,14 @@ believes:    "impossible" just means nobody tried hard enough — ask my Tesla's
 ### [TMM-App](https://github.com/LycheeAPPF/TMM-App)
 Independent, unofficial Android app that brings older Teslas up to modern spec — bridging phone messages over Bluetooth MAP and adding the in-car Grok (xAI) hands-free voice assistant that newer Teslas ship with and older ones don't.
 
-![Language](https://img.shields.io/github/languages/top/LycheeAPPF/TMM-App?style=flat-square&color=2563eb&label=language)
+![Language](https://img.shields.io/badge/language-Kotlin-2563eb?style=flat-square)
 ![Stars](https://img.shields.io/github/stars/LycheeAPPF/TMM-App?style=flat-square&color=2563eb&label=stars)
 ![License](https://img.shields.io/github/license/LycheeAPPF/TMM-App?style=flat-square&color=2563eb)
 
 ### [kennzeichen-bot](https://github.com/LycheeAPPF/kennzeichen-bot)
 Automatically checks the availability of selected German license plates via the "ekom21" portal.
 
-![Language](https://img.shields.io/github/languages/top/LycheeAPPF/kennzeichen-bot?style=flat-square&color=2563eb&label=language)
+![Language](https://img.shields.io/badge/language-Python-2563eb?style=flat-square)
 ![License](https://img.shields.io/github/license/LycheeAPPF/kennzeichen-bot?style=flat-square&color=2563eb)
 
 ## GitHub Stats
