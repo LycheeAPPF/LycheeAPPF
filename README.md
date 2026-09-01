@@ -10,7 +10,7 @@
 
 ```yaml
 focus:       Digital Identity & Trust Services
-off_hours:   exploring & reverse-engineering BLE and CAN-bus
+off_hours:   reverse-engineering hardware — BLE, CAN-bus, and whatever else comes in my way
 currently:   bringing older Teslas up to modern spec — TMM-App
 believes:    "impossible" just means nobody tried hard enough — ask my Tesla's infotainment, now running Grok
 ```
@@ -39,6 +39,12 @@ Automatically checks the availability of selected German license plates via the 
 
 ![Language](https://img.shields.io/badge/language-Python-2563eb?style=flat-square)
 ![License](https://img.shields.io/github/license/LycheeAPPF/kennzeichen-bot?style=flat-square&color=2563eb)
+
+### [cdj2000-emulator](https://github.com/LycheeAPPF/cdj2000-emulator)
+Emulator for the Pioneer CDJ-2000 that boots the player's own firmware on two emulated processors — a QEMU SH-4 board and a patched GNU Blackfin simulator.
+
+![Language](https://img.shields.io/badge/language-Python-2563eb?style=flat-square)
+![License](https://img.shields.io/github/license/LycheeAPPF/cdj2000-emulator?style=flat-square&color=2563eb)
 
 ## GitHub Stats
 
