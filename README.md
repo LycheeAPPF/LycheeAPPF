@@ -44,6 +44,7 @@ Automatically checks the availability of selected German license plates via the 
 Emulator for the Pioneer CDJ-2000 that boots the player's own firmware on two emulated processors — a QEMU SH-4 board and a patched GNU Blackfin simulator.
 
 ![Language](https://img.shields.io/badge/language-Python-2563eb?style=flat-square)
+![Stars](https://img.shields.io/github/stars/cdj2k-revival/cdj2000-emulator?style=flat-square&color=2563eb&label=stars)
 ![License](https://img.shields.io/github/license/LycheeAPPF/cdj2000-emulator?style=flat-square&color=2563eb)
 
 ## GitHub Stats
